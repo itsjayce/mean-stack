@@ -1,23 +1,35 @@
-* {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
+body {
     font-family: Arial, sans-serif;
-}
-input {
-    width: 30%;
-    padding: 10px;
-    
-}
-label {
-    padding-top: 10px;
-}
-button {
-    padding: 10px;
-    width: 5%;
+    max-width: 500px;
+    margin: 40px auto;
+    padding: 20px;
     background-color: #FFFFF0;
-    color: black;
+    color: #333;
+    display: block;
+  }
+  
+ h1 { 
+    text-align: center;
+    font-size: 2em;
+ }
+
+ label  {
+   font-size: 1.2em;
+   
+ }
+ input {
+    padding: 0.3%;
+    width: 15%;
+    border-radius: 5px;
     border: 1px solid black;
-    padding: 5px;
-    margin: 5px;
-}
+    margin-bottom: 1%;
+ }
+
+ .form-container {
+    display: block;
+    text-align: center;
+    align-items: center;
+ }
+ h3, h2 {
+    margin: 20px;
+ }
